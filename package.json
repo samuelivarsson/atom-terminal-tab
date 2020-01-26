@@ -1,17 +1,8 @@
 {
-  "name": "terminal-tab",
+  "name": "iv-terminal",
   "main": "./lib/main",
-  "version": "0.6.0",
+  "version": "0.0.0",
   "description": "A simple terminal for panes and docks.",
-  "author": {
-    "name": "Justin Mecham",
-    "email": "justin@mecham.me",
-    "url": "http://justin.mecham.me"
-  },
-  "private": true,
-  "scripts": {
-    "test": "apm test"
-  },
   "keywords": [
     "command",
     "console",
@@ -22,12 +13,15 @@
     "tty",
     "xterm"
   ],
-  "homepage": "https://atom.io/packages/terminal-tab",
-  "repository": "https://github.com/jsmecham/atom-terminal-tab",
+  "repository": "https://github.com/samuelivarsson/atom-iv-terminal",
   "license": "MIT",
+  "deserializers": {
+    "TerminalSession": "deserializeTerminalSession"
+  },
   "engines": {
     "atom": ">=1.19.0 <2.0.0"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "etch": "^0.14.0",
     "node-pty-prebuilt-multiarch": "^0.9.0",
@@ -35,8 +29,8 @@
     "xterm": "^4.2.0",
     "xterm-addon-fit": "^0.3.0"
   },
-  "deserializers": {
-    "TerminalSession": "deserializeTerminalSession"
+  "bugs": {
+    "url": "https://github.com/samuelivarsson/atom-iv-terminal/issues"
   },
   "eslintConfig": {
     "env": {

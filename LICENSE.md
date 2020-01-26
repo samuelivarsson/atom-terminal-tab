@@ -1,4 +1,4 @@
-Copyright (c) 2017 Justin Mecham <justin@mecham.me>
+Copyright (c) 2017 Justin Mecham <justin@mecham.me> and 2020 Samuel Ivarsson <samuelivarsson3@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

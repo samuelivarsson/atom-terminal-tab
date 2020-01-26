@@ -7,5 +7,9 @@
     "cmd-v": "terminal:paste",
     "cmd-k": "terminal:clear",
     "cmd-w": "terminal:close"
+  },
+  "atom-text-editor, terminal-view": {
+      "cmd-shift-l": "terminal:insert-custom-text-1",
+      "cmd-shift-g": "terminal:insert-custom-text-2"
   }
 }
