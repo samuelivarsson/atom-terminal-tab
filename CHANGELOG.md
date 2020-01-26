@@ -1,3 +1,7 @@
+## 1.1.5
+
+* Added functionality for clearing terminal from text-editor.
+
 ## 1.1.4
 
 * Fixed bug where quitting atom and leaving a terminal tab open, made it crash when starting atom again.
