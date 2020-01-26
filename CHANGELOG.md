@@ -1,3 +1,23 @@
+## 1.1.4
+
+* Fixed bug where quitting atom and leaving a terminal tab open, made it crash when starting atom again.
+
+## 1.1.3
+
+* Fixed bug when recovering old window
+
+## 1.1.2
+
+* Fixed theme matching.
+
+## 1.1.1
+
+* Fixed some bugs.
+
+## 1.1.0
+
+* Published iv-terminal version.
+
 ## 0.6.0
 
 * Updated to Xterm 4.2.0.
