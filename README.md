@@ -2,6 +2,7 @@
 
 Fork of [terminal-tab](https://atom.io/packages/terminal-tab). Changes made:
 
+* Fixed bug where closing terminal on windows made atom crash.
 * Terminal tabs opened from a text-editor will "link" the terminal to that editor.
 * Custom texts can be inserted to "linked" terminals.
 * Command to insert custom text can be called from both the terminal and the editor linked to the terminal.

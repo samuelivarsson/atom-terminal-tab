@@ -1,3 +1,8 @@
+## 1.1.7
+
+* Fixed keymaps for windows and linux.
+* Fixed bug where closing terminal on windows made atom crash.
+
 ## 1.1.6
 
 * Hopefully fixed bug where inserting new line on windows made atom crash.
