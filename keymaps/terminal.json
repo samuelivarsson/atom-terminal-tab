@@ -1,15 +1,52 @@
 {
-  "atom-workspace": {
+  ".platform-darwin atom-workspace": {
     "cmd-shift-t": "iv-terminal:open"
   },
-  "terminal-view": {
-    "cmd-c": "iv-terminal:copy",
-    "cmd-v": "iv-terminal:paste",
-    "cmd-k": "iv-terminal:clear",
-    "cmd-w": "iv-terminal:close"
+
+  ".platform-darwin terminal-view": {
+      "cmd-c": "iv-terminal:copy",
+      "cmd-v": "iv-terminal:paste",
+      "cmd-w": "iv-terminal:close"
   },
-  "atom-text-editor, terminal-view": {
-      "cmd-shift-l": "iv-terminal:insert-custom-text-1",
-      "cmd-shift-g": "iv-terminal:insert-custom-text-2"
+
+  ".platform-darwin atom-text-editor, .platform-darwin terminal-view": {
+      "cmd-shift-c": "iv-terminal:clear",
+      "cmd-shift-h": "iv-terminal:insert-custom-text-1",
+      "cmd-shift-l": "iv-terminal:insert-custom-text-2",
+      "cmd-shift-r": "iv-terminal:insert-custom-text-3"
+  },
+
+  ".platform-win32 atom-workspace": {
+    "ctrl-shift-t": "iv-terminal:open"
+  },
+
+  ".platform-win32 terminal-view": {
+      "ctrl-c": "iv-terminal:copy",
+      "ctrl-v": "iv-terminal:paste",
+      "ctrl-w": "iv-terminal:close"
+  },
+
+  ".platform-win32 atom-text-editor, .platform-win32 terminal-view": {
+      "ctrl-shift-c": "iv-terminal:clear",
+      "ctrl-shift-h": "iv-terminal:insert-custom-text-1",
+      "ctrl-shift-l": "iv-terminal:insert-custom-text-2",
+      "ctrl-shift-r": "iv-terminal:insert-custom-text-3"
+  },
+
+  ".platform-linux atom-workspace": {
+    "ctrl-shift-t": "iv-terminal:open"
+  },
+
+  ".platform-linux terminal-view": {
+      "ctrl-c": "iv-terminal:copy",
+      "ctrl-v": "iv-terminal:paste",
+      "ctrl-w": "iv-terminal:close"
+  },
+
+  ".platform-linux atom-text-editor, .platform-linux terminal-view": {
+      "ctrl-shift-c": "iv-terminal:clear",
+      "ctrl-shift-h": "iv-terminal:insert-custom-text-1",
+      "ctrl-shift-l": "iv-terminal:insert-custom-text-2",
+      "ctrl-shift-r": "iv-terminal:insert-custom-text-3"
   }
 }
