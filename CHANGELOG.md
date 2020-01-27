@@ -1,3 +1,7 @@
+## 1.1.6
+
+* Hopefully fixed bug where inserting new line on windows made atom crash.
+
 ## 1.1.5
 
 * Added functionality for clearing terminal from text-editor.
