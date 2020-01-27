@@ -1,15 +1,15 @@
 {
   "atom-workspace": {
-    "cmd-shift-t": "terminal:open"
+    "cmd-shift-t": "iv-terminal:open"
   },
   "terminal-view": {
-    "cmd-c": "terminal:copy",
-    "cmd-v": "terminal:paste",
-    "cmd-k": "terminal:clear",
-    "cmd-w": "terminal:close"
+    "cmd-c": "iv-terminal:copy",
+    "cmd-v": "iv-terminal:paste",
+    "cmd-k": "iv-terminal:clear",
+    "cmd-w": "iv-terminal:close"
   },
   "atom-text-editor, terminal-view": {
-      "cmd-shift-l": "terminal:insert-custom-text-1",
-      "cmd-shift-g": "terminal:insert-custom-text-2"
+      "cmd-shift-l": "iv-terminal:insert-custom-text-1",
+      "cmd-shift-g": "iv-terminal:insert-custom-text-2"
   }
 }
