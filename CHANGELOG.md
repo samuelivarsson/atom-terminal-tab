@@ -1,3 +1,7 @@
+## 1.1.8
+
+* Added functionality for automatic saving when using insert command.
+
 ## 1.1.7
 
 * Fixed keymaps for windows and linux.
