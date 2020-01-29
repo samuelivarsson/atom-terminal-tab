@@ -1,3 +1,8 @@
+## 1.1.9
+
+* Terminal will now still be linked to editor after restarting Atom.
+* Added option to focus terminal after inserting custom text.
+
 ## 1.1.8
 
 * Added functionality for automatic saving when using insert command.
