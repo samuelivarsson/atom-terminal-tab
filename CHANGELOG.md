@@ -1,3 +1,10 @@
+## 1.1.10
+
+* Added possibility to choose in which directory to open a terminal.
+* Added possibility to choose whether or not to run inserted text in terminal.
+* Added $P to custom text replacements.
+* Fixed issue where text was inserted before file was saved.
+
 ## 1.1.9
 
 * Terminal will now still be linked to editor after restarting Atom.
