@@ -1,3 +1,7 @@
+## 1.1.11
+
+* Removed unnecessary console.log statement.
+
 ## 1.1.10
 
 * Added possibility to choose in which directory to open a terminal.
