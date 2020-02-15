@@ -15,6 +15,19 @@
   ],
   "repository": "https://github.com/samuelivarsson/atom-iv-terminal",
   "license": "MIT",
+  "activationCommands": {
+    "atom-text-editor": [
+      "iv-terminal:insert-custom-text-1",
+      "iv-terminal:insert-custom-text-2",
+      "iv-terminal:insert-custom-text-3",
+      "iv-terminal:insert-custom-text-4",
+      "iv-terminal:insert-custom-text-5",
+      "iv-terminal:insert-custom-text-6"
+    ],
+    "atom-workspace": [
+      "iv-terminal:open"
+    ]
+  },
   "deserializers": {
     "TerminalSession": "deserializeTerminalSession"
   },

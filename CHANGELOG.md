@@ -1,3 +1,7 @@
+## 1.2.0
+
+* Faster startup time.
+
 ## 1.1.12
 
 * Changed description for "Run Inserted Text" in settings.
