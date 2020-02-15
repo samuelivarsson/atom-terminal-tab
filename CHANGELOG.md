@@ -1,3 +1,7 @@
+## 1.1.12
+
+* Changed description for "Run Inserted Text" in settings.
+
 ## 1.1.11
 
 * Removed unnecessary console.log statement.
