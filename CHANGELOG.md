@@ -1,3 +1,7 @@
+## 1.3.0
+
+* saveOnInsert only saves the file if it has been modified.
+
 ## 1.2.0
 
 * Faster startup time.
