@@ -21,8 +21,8 @@
   },
 
   ".platform-win32 terminal-view": {
-      "ctrl-c": "iv-terminal:copy",
-      "ctrl-v": "iv-terminal:paste",
+      "ctrl-insert": "iv-terminal:copy",
+      "shift-insert": "iv-terminal:paste",
       "ctrl-w": "iv-terminal:close"
   },
 
@@ -38,8 +38,8 @@
   },
 
   ".platform-linux terminal-view": {
-      "ctrl-c": "iv-terminal:copy",
-      "ctrl-v": "iv-terminal:paste",
+      "ctrl-insert": "iv-terminal:copy",
+      "shift-insert": "iv-terminal:paste",
       "ctrl-w": "iv-terminal:close"
   },
 
