@@ -1,3 +1,7 @@
+## 1.3.1
+
+* Changed default keymaps for copying and pasting on windows and linux.
+
 ## 1.3.0
 
 * saveOnInsert only saves the file if it has been modified.
